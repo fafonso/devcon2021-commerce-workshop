@@ -4,13 +4,6 @@
 dbvolume="devcon-commerce-2021-liferay_volume-mysql"
 projectimage="devcon-commerce-2021"
 
-echo "######################################################################################################################"
-echo "################### If this project is deploying commerce, you will need to restart Liferay again! ###################"
-echo "################### 1) Wait for your server to finish the initial startup                          ###################"
-echo "################### 2) Stop your docker containes (cntrl + c)                                      ###################"
-echo "################### 3) Execute docker-compose up                                                   ###################"
-echo "######################################################################################################################"
-
 echo "1/6 --> Stoping your docker-compose environment"
 
 #Stop docker containers
