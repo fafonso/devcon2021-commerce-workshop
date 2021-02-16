@@ -1,0 +1,39 @@
+version: '3'
+services:
+  liferay:
+    image: devcon-commerce-2021-liferay:7.3.5-ga6-d1.2.1-20201005162237
+    environment:
+      LIFERAY_JPDA_ENABLED: 'true'
+      LIFERAY_JDBC_PERIOD_DEFAULT_PERIOD_DRIVER_UPPERCASEC_LASS_UPPERCASEN_AME: com.mysql.cj.jdbc.Driver
+      LIFERAY_JDBC_PERIOD_DEFAULT_PERIOD_URL: jdbc:mysql://${mysql_container_name}:3306/${mysql_database_name}?useUnicode=true&characterEncoding=UTF-8&useFastDateParsing=false
+      LIFERAY_JDBC_PERIOD_DEFAULT_PERIOD_USERNAME: ${mysql_user_name}
+      LIFERAY_JDBC_PERIOD_DEFAULT_PERIOD_PASSWORD: ${mysql_user_password}
+      LIFERAY_BROWSER_PERIOD_LAUNCHER_PERIOD_URL:
+    ports:
+      -  8000:8000
+      -  8080:8080
+      -  11311:11311
+    volumes:
+      - ./build/docker/work:/opt/liferay/work
+      - ./build/docker/deploy:/mnt/liferay/deploy
+    networks:
+      - liferay-net
+  database:
+    image: mysql:8.0
+    # no need to expose ports as both services share the network
+    container_name: ${mysql_container_name}
+    ports:
+      - 3316:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: testroot
+      MYSQL_DATABASE: ${mysql_database_name}
+      MYSQL_USER: ${mysql_user_name}
+      MYSQL_PASSWORD: ${mysql_user_password}
+    networks:
+      - liferay-net
+    volumes:
+      - volume-mysql:/var/lib/mysql
+networks:
+  liferay-net:
+volumes:
+  volume-mysql:
