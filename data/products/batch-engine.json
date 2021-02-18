@@ -1,0 +1,9 @@
+{
+ "callbackURL": null,
+ "className": "com.liferay.headless.commerce.admin.catalog.dto.v1_0.Product",
+ "companyId": 37504,
+ "fieldNameMappingMap": null,
+ "parameters": null,
+ "userId": 37538,
+ "version": "v1.0"
+}

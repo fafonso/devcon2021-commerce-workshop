@@ -1,0 +1,74 @@
+[
+{
+    "active": true,
+    "catalogId": "38155",
+    "description": {
+        "en_US": "description 1"
+    },
+    "externalReferenceCode": "PROD_FA_1",
+    "name": {
+        "en_US": "Product 1"
+    },
+    "productType": "simple",
+    "shortDescription": {
+        "en_US": "shortDescription 1"
+    },
+    "skus": [
+        {
+            "externalReferenceCode": "SKU_FA_1_EC",
+            "neverExpire": true,
+            "published": true,
+            "purchasable": true,
+            "sku": "SKU_FA_1"
+        }
+    ]
+},
+{
+    "active": true,
+    "catalogId": "38155",
+    "description": {
+        "en_US": "description 2"
+    },
+    "externalReferenceCode": "PROD_FA_2",
+    "name": {
+        "en_US": "Product 2"
+    },
+    "productType": "simple",
+    "shortDescription": {
+        "en_US": "shortDescription 2"
+    },
+    "skus": [
+        {
+            "externalReferenceCode": "SKU_FA_2_EC",
+            "neverExpire": true,
+            "published": true,
+            "purchasable": true,
+            "sku": "SKU_FA_2"
+        }
+    ]
+},
+{
+    "active": true,
+    "catalogId": "38155",
+    "description": {
+        "en_US": "description 3"
+    },
+    "externalReferenceCode": "PROD_FA_3",
+    "name": {
+        "en_US": "Product 3"
+    },
+    "productType": "simple",
+    "shortDescription": {
+        "en_US": "shortDescription 3"
+    },
+    "skus": [
+        {
+            "externalReferenceCode": "SKU_FA_3_EC",
+            "neverExpire": true,
+            "published": true,
+            "purchasable": true,
+            "sku": "SKU_FA_3"
+        }
+    ]
+}
+]
