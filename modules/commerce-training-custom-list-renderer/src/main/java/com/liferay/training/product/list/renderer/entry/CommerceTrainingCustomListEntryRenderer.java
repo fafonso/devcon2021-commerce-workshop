@@ -60,6 +60,7 @@ public class CommerceTrainingCustomListEntryRenderer
 	 */
 	@Override
 	public String getLabel(Locale locale) {
+		// You should be using a localized label, from a language resource bundle
 		return KEY;
 	}
 

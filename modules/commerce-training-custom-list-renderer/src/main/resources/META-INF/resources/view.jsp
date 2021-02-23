@@ -11,6 +11,9 @@ long cpDefinitionId = cpCatalogEntry.getCPDefinitionId();
 
 <div class="col-md-4">
 	<div class="card">
+		
+		<h3 style="white-space: nowrap;" >DEVCON 2021!</h3>
+	
 		<a class="aspect-ratio" href="<%= cpContentHelper.getFriendlyURL(cpCatalogEntry, themeDisplay) %>">
 
 			<%
