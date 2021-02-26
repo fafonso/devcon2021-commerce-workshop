@@ -1,13 +1,14 @@
-# Liferay Devcon 2021 - Commerce Workshop: From 0 to Deploy in 60 minutes
+# Liferay Devcon 2021 
+## Commerce Workshop: From 0 to Deploy in 60 minutes
 
 Liferay 7.3 CE workspace, with supporting material and modules for the Liferay Commerce workshop, created for Liferay Devcon 2021.
 
-### Local environment setup
+#### Local environment setup
 
 * Make sure you have docker installed and configured with enough memory to run Liferay
 * Donwload this repo and from the root folder, run "./resetLocalDockerEnv.sh"
 
-### Repository index
+#### Repository index
 
 * Master branch has the final setup, with all the modules and additional data
 * There is a branch for every section covered in the workshop
