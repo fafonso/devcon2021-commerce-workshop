@@ -1,5 +1,5 @@
 # Liferay Devcon 2021 
-## Commerce Workshop: From 0 to Deploy in 60 minutes
+### Commerce Workshop: From 0 to Deploy in 60 minutes
 
 Liferay 7.3 CE workspace, with supporting material and modules for the Liferay Commerce workshop, created for Liferay Devcon 2021.
 
