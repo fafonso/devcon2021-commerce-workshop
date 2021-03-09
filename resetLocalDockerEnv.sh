@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Please adjust this variables to your project
-dbvolume="devcon-commerce-2021-liferay_volume-mysql"
+dbvolume="devcon-commerce-2021_volume-mysql"
 projectimage="devcon-commerce-2021"
 
 echo "1/6 --> Stoping your docker-compose environment"
