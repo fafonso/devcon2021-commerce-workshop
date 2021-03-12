@@ -7,6 +7,7 @@ Liferay 7.3 CE workspace, with supporting material and modules for the Liferay C
 
 * Make sure you have docker installed and configured with enough memory to run Liferay
 * Donwload this repo and from the root folder, run "./resetLocalDockerEnv.sh"
+* If you get an error when starting Liferay after running "./resetLocalDockerEnv.sh", it's probably a race condition with the DB docker box. Please stop your docker-compose environment (cntrl + C), and run "docker-compose up".
 
 #### Repository index
 
